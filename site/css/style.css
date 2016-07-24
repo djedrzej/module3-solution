@@ -3,7 +3,6 @@ body {
 	color: black;
 	background-color: white;
 }
-
 /* Header*/
 #header-nav {
 	border-radius: 0;
@@ -11,6 +10,7 @@ body {
 }
 .navbar-brand {
 	padding-top: 25px;
+	height: 100px;
 }
 .navbar-brand h1 { /* Restaurant name */
 	color: black;
