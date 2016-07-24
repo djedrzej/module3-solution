@@ -6,7 +6,6 @@ body {
 
 /* Header*/
 #header-nav {
-	background-color: #989898;
 	border-radius: 0;
 	border: 0;
 }
@@ -26,7 +25,6 @@ body {
 }
 #nav-list {
 	margin-top: 10px;
-	background-color: white;
 }
 #nav-list a {
 	color: black;
@@ -54,34 +52,8 @@ body {
 	margin: auto;
 	margin-bottom: 10px;
 }
-#menu h3 {
-	text-align: center;
-}
-#menuContent {
-	width: 100%;
-	clear: both;
-	padding: 10px;
-}
 /* End Main Content */
 
-/* Large devices only */
-@media (min-width: 1200px) {
-	#header-nav {
-		height: 100px;
-	}
-}
-/* Medium devices only */
-@media (min-width: 992px) and (max-width: 1199px) {
-	#header-nav {
-		height: 100px;
-	}
-}
-/* Small devices only */
-@media (min-width: 768px) and (max-width: 991px) {
-	#header-nav {
-		height: 100px;
-	}
-}
 /* Extra small devices only */
 @media (max-width: 767px) {
 	/* Header */
@@ -93,27 +65,11 @@ body {
 		padding-top: 10px;
 		font-size: 5vw;	/* 1vw = 1% of viewport width */
 	}
-	
 	#collapse-nav a { /* Collapsed nav menu glyph */
 		font-size: 1em;
 	}
 	#callapse-nav a span {
 		font-size: .5em;
 		margin-right: 5px;
-	}
-}
-/* super extra small deviceses only as iPhone 4*/
-@media (max-width: 479px) {
-	.navbar-band h1{
-		padding-top: 5px;
-		font-size: 6vw;
-	}
-	.col-xxs-12 {
-		position: relative;
-		min-height: 1px;
-		padding-right: 15px;
-		padding-left: 15px;
-		float: left;
-		width: 100%;
 	}
 }
